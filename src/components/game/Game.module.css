@@ -1,0 +1,5 @@
+.game{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /*primeiro o tamanho (3) depois a fração do espaço (1) */
+  gap: 15px;
+  }
