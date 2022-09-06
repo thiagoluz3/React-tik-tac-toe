@@ -9,7 +9,7 @@ function Header () {
       <Title>Jogo da Velha</Title>
       <Subtitle>Criado por Thiago Luz</Subtitle>
       <div className={styles.iconContent}>
-        <Icon iconName="github" Link="https://github.com/thiagoluz3"/>
+        <Icon iconName="github" Link="https://github.com/thiagoluz3" size="50px"/>
       </div>
     </div>
     )

@@ -3,3 +3,16 @@
   grid-template-columns: repeat(3, 1fr); /*primeiro o tamanho (3) depois a fração do espaço (1) */
   gap: 15px;
   }
+
+  .gameContent{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .gameInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+  }
