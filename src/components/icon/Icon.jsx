@@ -1,7 +1,7 @@
 function Icon ({ iconName, size, Link }) {
   return (
     <a href={Link} target="_blank">  {/*target _blank faz com que ao clicar no logo vá para uma nova aba */}
-      <img src={`/icons/${iconName}.svg`} width={size}/>
+      <img src={`/icons/${iconName}.svg`} width={size} />
     </a>
   )
 }
